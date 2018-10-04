@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Pokedex Application</string>
+    <string name="pokemon_name_hint">Enter a name for the pokemon.</string>
+    <string name="pokemon_name_label">Name</string>
+    <string name="pokemon_category_label">Category</string>
+    <string name="pokemon_attack_label">Attack</string>
+    <string name="pokemon_defense_label">Defense</string>
+    <string name="pokemon_hp_label">HP</string>
+    <string name="pokemon_height_label">Height</string>
+    <string name="pokemon_specialattack_label">SpecialAttack</string>
+    <string name="pokemon_specialdefense_label">SpecialDefense</string>
+    <string name="pokemon_speed_label">Speed</string>
+    <string name="pokemon_weight_label">Weight</string>
+    <!--<string name="pokemon_imageresource_label">ImageResource</string>-->
+</resources>
