@@ -5,102 +5,117 @@
     android:layout_margin="16dp"
     android:orientation="vertical">
 
-    <!--Name TextView-->
-    <TextView
-        android:id="@+id/pokemon_Name"
-        style="?android:listSeparatorTextViewStyle"
-        android:textSize="30sp"
-        android:padding="20dp"
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/pokemon_name_label" />
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/pokemon_Image"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="16dp"
+            android:orientation="vertical">
 
-    <!--Category TextView-->
-    <TextView
-        android:id="@+id/pokemon_Category"
-        style="?android:listSeparatorTextViewStyle"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:padding="6dp"
-        android:text="@string/pokemon_category_label"
-        android:textSize="20sp" />
+            <!--Name TextView-->
+            <TextView
+                android:id="@+id/pokemon_Name"
+                style="?android:listSeparatorTextViewStyle"
+                android:textSize="30sp"
+                android:padding="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pokemon_name_label" />
 
-
-    <TextView
-        android:id="@+id/pokemon_Height"
-        style="?android:listSeparatorTextViewStyle"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:padding="6dp"
-        android:text="@string/pokemon_height_label"
-        android:textSize="20sp" />
-
-    <TextView
-        android:id="@+id/pokemon_Weight"
-        style="?android:listSeparatorTextViewStyle"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:padding="6dp"
-        android:text="@string/pokemon_weight_label"
-        android:textSize="20sp" />
-
-    <TextView
-        android:id="@+id/pokemon_Speed"
-        style="?android:listSeparatorTextViewStyle"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:padding="6dp"
-        android:text="@string/pokemon_speed_label"
-        android:textSize="20sp" />
-
-    <TextView
-        android:id="@+id/pokemon_HP"
-        style="?android:listSeparatorTextViewStyle"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:padding="6dp"
-        android:text="@string/pokemon_hp_label"
-        android:textSize="20sp" />
-
-    <TextView
-        style="?android:listSeparatorTextViewStyle"
-        android:textSize="20sp"
-        android:padding="6dp"
-        android:id="@+id/pokemon_Attack"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/pokemon_attack_label"/>
-
-    <!--Defense TextView-->
-    <TextView
-        style="?android:listSeparatorTextViewStyle"
-        android:textSize="20sp"
-        android:padding="6dp"
-        android:id="@+id/pokemon_Defense"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/pokemon_defense_label"/>
+            <!--Category TextView-->
+            <TextView
+                android:id="@+id/pokemon_Category"
+                style="?android:listSeparatorTextViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="6dp"
+                android:text="@string/pokemon_category_label"
+                android:textSize="20sp" />
 
 
-    <!--SpecialAttack TextView-->
-    <TextView
-        style="?android:listSeparatorTextViewStyle"
-        android:textSize="20sp"
-        android:padding="6dp"
-        android:id="@+id/pokemon_SpecialAttack"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/pokemon_specialattack_label"/>
+            <TextView
+                android:id="@+id/pokemon_Height"
+                style="?android:listSeparatorTextViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="6dp"
+                android:text="@string/pokemon_height_label"
+                android:textSize="20sp" />
 
-    <!--SpecialDefense TextView-->
-    <TextView
-        style="?android:listSeparatorTextViewStyle"
-        android:textSize="20sp"
-        android:padding="6dp"
-        android:id="@+id/pokemon_SpecialDefense"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/pokemon_specialdefense_label"/>
+            <TextView
+                android:id="@+id/pokemon_Weight"
+                style="?android:listSeparatorTextViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="6dp"
+                android:text="@string/pokemon_weight_label"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/pokemon_Speed"
+                style="?android:listSeparatorTextViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="6dp"
+                android:text="@string/pokemon_speed_label"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/pokemon_HP"
+                style="?android:listSeparatorTextViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="6dp"
+                android:text="@string/pokemon_hp_label"
+                android:textSize="20sp" />
+
+            <TextView
+                style="?android:listSeparatorTextViewStyle"
+                android:textSize="20sp"
+                android:padding="6dp"
+                android:id="@+id/pokemon_Attack"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pokemon_attack_label"/>
+
+            <!--Defense TextView-->
+            <TextView
+                style="?android:listSeparatorTextViewStyle"
+                android:textSize="20sp"
+                android:padding="6dp"
+                android:id="@+id/pokemon_Defense"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pokemon_defense_label"/>
 
 
+            <!--SpecialAttack TextView-->
+            <TextView
+                style="?android:listSeparatorTextViewStyle"
+                android:textSize="20sp"
+                android:padding="6dp"
+                android:id="@+id/pokemon_SpecialAttack"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pokemon_specialattack_label"/>
+
+            <!--SpecialDefense TextView-->
+            <TextView
+                style="?android:listSeparatorTextViewStyle"
+                android:textSize="20sp"
+                android:padding="6dp"
+                android:id="@+id/pokemon_SpecialDefense"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pokemon_specialdefense_label"/>
+        </LinearLayout>
+    </LinearLayout>
 </LinearLayout>

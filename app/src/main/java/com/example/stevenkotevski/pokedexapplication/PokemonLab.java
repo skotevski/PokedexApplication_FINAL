@@ -35,7 +35,7 @@ public class PokemonLab {
         pikachu.setmDefense(40);
         pikachu.setmHeight("1 Ft, 4 In");
         pikachu.setmHP(35);
-        pikachu.setmImageResource(0);
+        pikachu.setmImageResource(R.mipmap.pikachu);
         pikachu.setmSpecialAttack(50);
         pikachu.setmSpecialDefense(50);
         pikachu.setmSpeed(90);
@@ -50,7 +50,7 @@ public class PokemonLab {
         salamence.setmDefense(80);
         salamence.setmHeight("4 Ft, 11 In");
         salamence.setmHP(95);
-        salamence.setmImageResource(1);
+        salamence.setmImageResource(R.mipmap.salamence);
         salamence.setmSpecialAttack(110);
         salamence.setmSpecialDefense(80);
         salamence.setmSpeed(100);
@@ -65,7 +65,7 @@ public class PokemonLab {
         mewtwo.setmDefense(90);
         mewtwo.setmHeight("6 Ft, 7 In");
         mewtwo.setmHP(106);
-        mewtwo.setmImageResource(2);
+        mewtwo.setmImageResource(R.mipmap.mewtwo);
         mewtwo.setmSpecialAttack(154);
         mewtwo.setmSpecialDefense(90);
         mewtwo.setmSpeed(130);
@@ -79,7 +79,7 @@ public class PokemonLab {
         charizard.setmDefense(78);
         charizard.setmHeight("5 Ft, 7 In");
         charizard.setmHP(78);
-        charizard.setmImageResource(3);
+        charizard.setmImageResource(R.mipmap.charizard);
         charizard.setmSpecialAttack(109);
         charizard.setmSpecialDefense(85);
         charizard.setmSpeed(100);
@@ -93,7 +93,7 @@ public class PokemonLab {
         blaziken.setmDefense(70);
         blaziken.setmHeight("6 Ft, 3 In");
         blaziken.setmHP(80);
-        blaziken.setmImageResource(4);
+        blaziken.setmImageResource(R.mipmap.blaziken);
         blaziken.setmSpecialAttack(110);
         blaziken.setmSpecialDefense(70);
         blaziken.setmSpeed(80);
@@ -107,7 +107,7 @@ public class PokemonLab {
         rayquaza.setmDefense(90);
         rayquaza.setmHeight("23 Ft, 0 In");
         rayquaza.setmHP(105);
-        rayquaza.setmImageResource(5);
+        rayquaza.setmImageResource(R.mipmap.rayquaza);
         rayquaza.setmSpecialAttack(150);
         rayquaza.setmSpecialDefense(90);
         rayquaza.setmSpeed(95);
@@ -121,7 +121,7 @@ public class PokemonLab {
         dialga.setmDefense(120);
         dialga.setmHeight("17 Ft, 9 In");
         dialga.setmHP(100);
-        dialga.setmImageResource(6);
+        dialga.setmImageResource(R.mipmap.dialga);
         dialga.setmSpecialAttack(150);
         dialga.setmSpecialDefense(100);
         dialga.setmSpeed(90);
@@ -135,7 +135,7 @@ public class PokemonLab {
         sceptile.setmDefense(65);
         sceptile.setmHeight("5 Ft, 7 In");
         sceptile.setmHP(70);
-        sceptile.setmImageResource(7);
+        sceptile.setmImageResource(R.mipmap.sceptile);
         sceptile.setmSpecialAttack(105);
         sceptile.setmSpecialDefense(85);
         sceptile.setmSpeed(120);
@@ -149,7 +149,7 @@ public class PokemonLab {
         empoleon.setmDefense(88);
         empoleon.setmHeight("5 Ft, 7 In");
         empoleon.setmHP(84);
-        empoleon.setmImageResource(8);
+        empoleon.setmImageResource(R.mipmap.empoleon);
         empoleon.setmSpecialAttack(111);
         empoleon.setmSpecialDefense(101);
         empoleon.setmSpeed(60);
@@ -163,7 +163,7 @@ public class PokemonLab {
         flygon.setmDefense(80);
         flygon.setmHeight("6 Ft, 7 In");
         flygon.setmHP(80);
-        flygon.setmImageResource(9);
+        flygon.setmImageResource(R.mipmap.flygon);
         flygon.setmSpecialAttack(80);
         flygon.setmSpecialDefense(80);
         flygon.setmSpeed(100);

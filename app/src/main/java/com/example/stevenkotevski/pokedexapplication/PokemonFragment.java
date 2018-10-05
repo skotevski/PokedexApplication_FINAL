@@ -8,6 +8,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.UUID;
@@ -26,6 +27,7 @@ public class PokemonFragment extends Fragment {
     private TextView mSpeedField;
     private TextView mWeightField;
 
+    private ImageView mImageField;
 
 
 
@@ -77,7 +79,8 @@ public class PokemonFragment extends Fragment {
         mWeightField.setText ("Weight:    " + mPokemon.getmWeight());
 
 
-
+    mImageField = (ImageView)v.findViewById(R.id.pokemon_Image);
+    mImageField.setImageResource(mPokemon.getmImageResource());
 
 
 
